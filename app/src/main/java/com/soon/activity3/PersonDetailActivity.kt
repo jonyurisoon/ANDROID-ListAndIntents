@@ -16,7 +16,6 @@ class PersonDetailActivity : AppCompatActivity() {
         val subject = intent.getStringExtra("subject")
         val content = intent.getStringExtra("content")
 
-        // Set the values using ViewBinding
         binding.nameTextView.text = name
         binding.subjectTextView.text = subject
         binding.contentTextView.text = content
